@@ -16,6 +16,8 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
+          leading: Icon(Icons.perm_identity),
+          elevation: 5.0,
           title: Center(
             child: Text(
               titlename,
